@@ -8,7 +8,7 @@
 					 昵称
 				</view>
 				<view>
-					<view class="icon iconfont icon-bianji"></view>关注1
+					<view class="icon iconfont icon-aixin1"></view>关注1
 				</view>
 			</view>
 			<view class="index-list2">我是标题</view>
@@ -17,8 +17,8 @@
 			</view>
 			<view class="index-list4">
 				<view>
-					<view class="icon"></view><view>10</view>
-					<view class="icon"></view><view>20</view>
+					<view class="icon iconfont icon-dianzan1"></view><view>10</view>
+					<view class="icon iconfont icon-cai"></view><view>20</view>
 				</view>
 				<view></view>
 			</view>
@@ -41,9 +41,20 @@
 </script>
 
 <style>
+	.u-f,.u-f-a{
+		display: flex;
+	}
+	.u-f-a{
+		
+	}
 	.index-list{
 		padding: 20upx;
 		border-bottom: 1upx solid #EEEEEE;
+	}
+	.index-list1{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
 	}
 	.index-list1>view:first-child{
 		color: #999999;
